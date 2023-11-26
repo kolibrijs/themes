@@ -1,14 +1,14 @@
 // @ts-nocheck
 
-import { execSync } from 'child_process'
-import { join } from 'path'
+import { execSync } from 'node:child_process'
+import { join } from 'node:path'
 import fs from 'fs-extra'
-import { cd, $ } from 'zx'
+import { $, cd } from 'zx'
 import { promptForPackage } from './packages.mjs'
 
 const pkg = await promptForPackage()
 
-execSync('pnpx bumpp', { stdio: 'inherit', cwd: pkg.path })
+execSync('pnpx bumping', { stdio: 'inherit', cwd: pkg.path })
 cd(pkg.path)
 
 const { version } = await fs.readJSON(join(pkg.path, 'package.json'))

@@ -30,7 +30,7 @@
     }
   },
   "dependencies": {
-    "@kolibrijs/types": "^0.0.1",
+    "@kolibrijs/types": "^0.0.2",
     "codemirror-theme-vars": "^0.1.1",
     "prism-theme-vars": "^0.2.2",
     "theme-lumos": "^0.0.3"

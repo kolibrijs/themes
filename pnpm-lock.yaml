@@ -9,17 +9,17 @@ importers:
   .:
     devDependencies:
       '@kolibrijs/cli':
-        specifier: ^0.0.1
-        version: 0.0.1(@types/markdown-it@13.0.7)(@types/node@16.7.13)(playwright-chromium@1.14.1)(postcss@8.4.31)(typescript@4.4.2)
+        specifier: ^0.0.2
+        version: 0.0.2(@types/markdown-it@13.0.7)(@types/node@16.7.13)(playwright-chromium@1.14.1)(postcss@8.4.31)(typescript@4.4.2)
       '@kolibrijs/client':
-        specifier: ^0.0.1
-        version: 0.0.1(postcss@8.4.31)(typescript@4.4.2)(vite@4.5.0)
+        specifier: ^0.0.2
+        version: 0.0.2(postcss@8.4.31)(typescript@4.4.2)(vite@4.5.0)
       '@kolibrijs/parser':
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: ^0.0.2
+        version: 0.0.2
       '@kolibrijs/types':
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: ^0.0.2
+        version: 0.0.2
       '@nyxb/eslint-config':
         specifier: ^1.0.6
         version: 1.0.6(eslint@8.54.0)(typescript@4.4.2)
@@ -84,8 +84,8 @@ importers:
   packages/theme-apple-basic:
     dependencies:
       '@kolibrijs/types':
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: ^0.0.2
+        version: 0.0.2
       codemirror-theme-vars:
         specifier: ^0.1.1
         version: 0.1.1
@@ -99,8 +99,8 @@ importers:
   packages/theme-bricks:
     dependencies:
       '@kolibrijs/types':
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: ^0.0.2
+        version: 0.0.2
       codemirror-theme-vars:
         specifier: ^0.1.1
         version: 0.1.1
@@ -114,8 +114,8 @@ importers:
   packages/theme-default:
     dependencies:
       '@kolibrijs/types':
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: ^0.0.2
+        version: 0.0.2
       codemirror-theme-vars:
         specifier: ^0.1.1
         version: 0.1.1
@@ -129,8 +129,8 @@ importers:
   packages/theme-seriph:
     dependencies:
       '@kolibrijs/types':
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: ^0.0.2
+        version: 0.0.2
       codemirror-theme-vars:
         specifier: ^0.1.1
         version: 0.1.1
@@ -144,8 +144,8 @@ importers:
   packages/theme-shibainu:
     dependencies:
       '@kolibrijs/types':
-        specifier: ^0.0.1
-        version: 0.0.1
+        specifier: ^0.0.2
+        version: 0.0.2
       codemirror-theme-vars:
         specifier: ^0.1.1
         version: 0.1.1
@@ -922,8 +922,8 @@ packages:
       type-detect: 4.0.8
     dev: true
 
-  /@kolibrijs/cli@0.0.1(@types/markdown-it@13.0.7)(@types/node@16.7.13)(playwright-chromium@1.14.1)(postcss@8.4.31)(typescript@4.4.2):
-    resolution: {integrity: sha512-K9tc+mBO+Iek2tTmehVkwDRudz+RK6AZs+9QKy0o4EPHcx/fsSQc2HuLnr5ILGA4+ZnCAGyludf5KsL/0nUKeg==}
+  /@kolibrijs/cli@0.0.2(@types/markdown-it@13.0.7)(@types/node@16.7.13)(playwright-chromium@1.14.1)(postcss@8.4.31)(typescript@4.4.2):
+    resolution: {integrity: sha512-ctiP5rgxwpwV2K39iKF/CmDCJ98ehcjOCo67erofa/jpTK7hMD53cb8EbIkVSYsYry8yljiMLKtjRfZS+c0ksg==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -935,9 +935,9 @@ packages:
       '@hedgedoc/markdown-it-plugins': 2.1.4(markdown-it@13.0.2)
       '@iconify-json/carbon': 1.1.22
       '@iconify-json/ph': 1.1.7
-      '@kolibrijs/client': 0.0.1(postcss@8.4.31)(typescript@4.4.2)(vite@4.5.0)
-      '@kolibrijs/parser': 0.0.1
-      '@kolibrijs/types': 0.0.1
+      '@kolibrijs/client': 0.0.2(postcss@8.4.31)(typescript@4.4.2)(vite@4.5.0)
+      '@kolibrijs/parser': 0.0.2
+      '@kolibrijs/types': 0.0.2
       '@lillallol/outline-pdf': 4.0.0
       '@mrdrogdrog/optional': 1.2.1
       '@nyxb/utils': 0.0.3
@@ -1019,12 +1019,12 @@ packages:
       - vue-template-es2015-compiler
     dev: true
 
-  /@kolibrijs/client@0.0.1(postcss@8.4.31)(typescript@4.4.2)(vite@4.5.0):
-    resolution: {integrity: sha512-tPMLrMTPamJ2/6AbTno8/1UpddONgDF8H4Gn7GqYqF2nKnWE8n1QVZaEdGPXWo6i59Ce34/8Mk6QG6pGJLb+Og==}
+  /@kolibrijs/client@0.0.2(postcss@8.4.31)(typescript@4.4.2)(vite@4.5.0):
+    resolution: {integrity: sha512-UPt5UYiSl+Onefwq3lXs86z5iSznEoxojfq2tHYWOl+m8afvl9fu2sHi9Wiy+mcPVYOSlzEmjPY7CuxTMO4oXQ==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@kolibrijs/parser': 0.0.1
-      '@kolibrijs/types': 0.0.1
+      '@kolibrijs/parser': 0.0.2
+      '@kolibrijs/types': 0.0.2
       '@nyxb/utils': 0.0.3
       '@unhead/vue': 1.8.8(vue@3.3.9)
       '@unocss/reset': 0.57.7
@@ -1061,16 +1061,16 @@ packages:
       - vite
     dev: true
 
-  /@kolibrijs/parser@0.0.1:
-    resolution: {integrity: sha512-b+MB5b4cJ34p5HeidtIk5zn0l9s4MD7CWvG3wJSlOn+CR2XsEbjx7PuKqo60QqO2o76aUG1KhC1i57225JkfdQ==}
+  /@kolibrijs/parser@0.0.2:
+    resolution: {integrity: sha512-kfJ/xhEP7qoEOP947YBlfYJbLUv4k0EG9McL2qT6f7CQnRDy89igjA2hkcInCgGlGgpnWP9D6VWUOIqKXRZjbQ==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@kolibrijs/types': 0.0.1
+      '@kolibrijs/types': 0.0.2
       js-yaml: 4.1.0
     dev: true
 
-  /@kolibrijs/types@0.0.1:
-    resolution: {integrity: sha512-0IdA8UfM0niSsitezZ8mYOJohlTBB4983RstE4FU5NDKuIM4pYDnVDRRIk7Z7WmKnHs/X1ksD0zsRGJFfgH8zw==}
+  /@kolibrijs/types@0.0.2:
+    resolution: {integrity: sha512-17Md6J6HXLhSpDmMKq6+TpIdiXVEcsze+yVlcVXkAe8f+xlOqgDQfnYFat0YZMYYbhG5xI+JiQ4mKv646aRmXg==}
     engines: {node: '>=18.0.0'}
 
   /@leichtgewicht/ip-codec@2.0.4:
@@ -2732,7 +2732,7 @@ packages:
   /axios@0.21.4(debug@4.3.2):
     resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
     dependencies:
-      follow-redirects: 1.14.1(debug@4.3.2)
+      follow-redirects: 1.15.3(debug@4.3.2)
     transitivePeerDependencies:
       - debug
     dev: true
@@ -3106,8 +3106,8 @@ packages:
   /cliui@7.0.4:
     resolution: {integrity: sha512-OcRE68cOsVMXp1Yvonl/fzkQOyjLSu/8bhPDfQt0e0/Eb283TKP20Fs2MqoPsr9SwA595rRCA+QMzYc9nBP+JQ==}
     dependencies:
-      string-width: 4.2.2
-      strip-ansi: 6.0.0
+      string-width: 4.2.3
+      strip-ansi: 6.0.1
       wrap-ansi: 7.0.0
     dev: true
 
@@ -4873,7 +4873,7 @@ packages:
       merge-stream: 2.0.0
       npm-run-path: 4.0.1
       onetime: 5.1.2
-      signal-exit: 3.0.3
+      signal-exit: 3.0.7
       strip-final-newline: 2.0.0
     dev: true
 
@@ -5077,8 +5077,8 @@ packages:
     resolution: {integrity: sha512-zAoAQiudy+r5SvnSw3KJy5os/oRJYHzrzja/tBDqrZtNhUw8bt6y8OBzMWcjWr+8liV8Eb6yOhw8WZ7VFZ5ZzA==}
     dev: true
 
-  /follow-redirects@1.14.1(debug@4.3.2):
-    resolution: {integrity: sha512-HWqDgT7ZEkqRzBvc2s64vSZ/hfOceEol3ac/7tKwzuvEyWx3/4UegXh5oBOIotkGsObyk3xznnSRVADBgWSQVg==}
+  /follow-redirects@1.15.3(debug@4.3.2):
+    resolution: {integrity: sha512-1VzOtuEM8pC9SFU1E+8KfTjZyMztRsgEfwQl44z8A25uy13jSzTj6dyK2Df52iV0vgHCfBwLhDWevLn95w5v6Q==}
     engines: {node: '>=4.0'}
     peerDependencies:
       debug: '*'
@@ -7146,7 +7146,7 @@ packages:
     resolution: {integrity: sha512-uD66tJj54JLYq0De10AhWycZWGQNUvDI55xPgk2sQM5kn1JYlhbCMTtEeT27+vAhW2FBQxLlOmS3pmA7/2z4aA==}
     dependencies:
       '@types/debug': 4.1.12
-      debug: 4.3.2
+      debug: 4.3.4
       decode-named-character-reference: 1.0.2
       micromark-core-commonmark: 1.1.0
       micromark-factory-space: 1.1.0
@@ -8610,7 +8610,7 @@ packages:
     resolution: {integrity: sha512-XcT5rBksx1QdIhlFOCtgZkB99ZEouFZ1E2Kc2LHqNW13U3/74YGdkQRmThTwxy4QIyookibDKYZOPqX//6BlAg==}
     engines: {node: '>=12'}
     dependencies:
-      execa: 5.0.0
+      execa: 5.1.1
     dev: true
 
   /run-parallel@1.2.0:
@@ -8665,6 +8665,7 @@ packages:
 
   /safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
+    requiresBuild: true
     dev: true
 
   /scule@1.1.0:
@@ -10228,7 +10229,7 @@ packages:
       escalade: 3.1.1
       get-caller-file: 2.0.5
       require-directory: 2.1.1
-      string-width: 4.2.2
+      string-width: 4.2.3
       y18n: 5.0.8
       yargs-parser: 20.2.7
     dev: true

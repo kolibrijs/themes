@@ -1,6 +1,6 @@
 // @ts-nocheck
 
-import path from 'path'
+import path from 'node:path'
 import { $, cd } from 'zx'
 import fs from 'fs-extra'
 import * as parser from '@kolibrijs/parser/fs'
@@ -25,7 +25,7 @@ for (const pkg of await getPackagePaths()) {
 
   if (pages.length) {
     cd(pkg)
-    await $`pnpx kolibri export example.md --format png --timeout 1000 --output '${dir}' --range ${pages.join(',')}`
+    await $`pnpx kolibry export example.md --format png --timeout 1000 --output '${dir}' --range ${pages.join(',')}`
     cd(dir)
     await $([`pngquant 256 ${pages.map(toScreenshotName).join(' ')} --ext .png -f --quality 95`])
   }

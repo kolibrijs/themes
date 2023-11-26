@@ -14,10 +14,10 @@
     "ci:publish": "zx scripts/publish.mjs"
   },
   "devDependencies": {
-    "@kolibrijs/cli": "^0.0.1",
-    "@kolibrijs/client": "^0.0.1",
-    "@kolibrijs/parser": "^0.0.1",
-    "@kolibrijs/types": "^0.0.1",
+    "@kolibrijs/cli": "^0.0.2",
+    "@kolibrijs/client": "^0.0.2",
+    "@kolibrijs/parser": "^0.0.2",
+    "@kolibrijs/types": "^0.0.2",
     "@nyxb/eslint-config": "^1.0.6",
     "@nyxb/nyxi": "^0.0.31",
     "@nyxb/utils": "^0.0.3",
