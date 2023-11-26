@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint '**/*.{js,ts,vue,json}'",
     "lint:fix": "nyxr lint --fix",
-    "upgrade": "freshdeps -rwi --include /@kolibri/",
+    "upgrade": "freshdeps -rwi --include /@kolibrijs/",
     "dev": "zx scripts/dev.mjs",
     "build": "zx scripts/build.mjs",
     "release": "zx scripts/prompt.mjs",
