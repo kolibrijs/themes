@@ -1,16 +1,24 @@
 {
   "name": "@kolibrijs/theme-seriph",
   "version": "0.0.0",
-  "engines": {
-    "node": ">=14.0.0",
-    "kolibri": ">=0.0.1"
-  },
   "description": "Seriph theme for Kolibri",
+  "author": "Dennis Ollhoff <contact@nyxb.email>",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/nyxb",
+  "homepage": "https://kolibri.show",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kolibrijs/themes"
+  },
+  "bugs": "https://github.com/kolibrijs/themes/issues",
   "keywords": [
     "kolibri-theme",
     "kolibri"
   ],
-  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0",
+    "kolibri": ">=0.0.1"
+  },
   "kolibri": {
     "colorSchema": "both",
     "highlighter": "all",
@@ -24,14 +32,6 @@
       }
     }
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kolibrijs/themes"
-  },
-  "funding": "https://github.com/sponsors/nyxb",
-  "author": "Dennis Ollhoff <contact@nyxb.email>",
-  "homepage": "https://kolibri.show",
-  "bugs": "https://github.com/kolibrijs/themes/issues",
   "dependencies": {
     "@kolibrijs/types": "^0.0.1",
     "codemirror-theme-vars": "^0.1.1",

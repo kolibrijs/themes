@@ -5,13 +5,39 @@
   },
   "scripts": {
     "lint": "eslint '**/*.{js,ts,vue,json}'",
-    "lint:fix": "nr lint --fix",
+    "lint:fix": "nyxr lint --fix",
     "upgrade": "freshdeps -rwi --include /@kolibri/",
     "dev": "zx scripts/dev.mjs",
     "build": "zx scripts/build.mjs",
     "release": "zx scripts/prompt.mjs",
     "screenshot": "zx scripts/screenshot.mjs",
     "ci:publish": "zx scripts/publish.mjs"
+  },
+  "devDependencies": {
+    "@kolibrijs/cli": "^0.0.1",
+    "@kolibrijs/client": "^0.0.1",
+    "@kolibrijs/parser": "^0.0.1",
+    "@kolibrijs/types": "^0.0.1",
+    "@nyxb/eslint-config": "^1.0.6",
+    "@nyxb/nyxi": "^0.0.31",
+    "@nyxb/utils": "^0.0.3",
+    "@types/fs-extra": "^9.0.12",
+    "@types/node": "^16.7.13",
+    "@typescript-eslint/eslint-plugin": "^4.31.0",
+    "bumping": "^9.2.1",
+    "conventional-changelog-cli": "^2.1.1",
+    "eslint": "^8.54.0",
+    "esno": "^0.9.1",
+    "fast-glob": "^3.2.7",
+    "freshdeps": "^0.0.4",
+    "fs-extra": "^10.0.0",
+    "husky": "4.3.7",
+    "lint-staged": "^11.1.2",
+    "playwright-chromium": "^1.14.1",
+    "prompts": "^2.4.1",
+    "typescript": "^4.4.2",
+    "vue": "^3.2.10",
+    "zx": "^4.2.0"
   },
   "husky": {
     "hooks": {
@@ -22,30 +48,5 @@
     "{packages,.vitepress,scripts}/**/*.{js,ts,vue,json}": [
       "eslint --fix"
     ]
-  },
-  "devDependencies": {
-    "@nyxb/nyxi": "^0.0.31",
-    "@nyxb/utils": "^0.0.3",
-    "@kolibrijs/cli": "^0.0.1",
-    "@kolibrijs/client": "^0.0.1",
-    "@kolibrijs/parser": "^0.0.1",
-    "@kolibrijs/types": "^0.0.1",
-    "@types/fs-extra": "^9.0.12",
-    "@types/node": "^16.7.13",
-    "@typescript-eslint/eslint-plugin": "^4.31.0",
-    "bumping": "^9.2.1",
-    "conventional-changelog-cli": "^2.1.1",
-    "eslint": "^8.54.0",
-    "esno": "^0.9.1",
-    "fast-glob": "^3.2.7",
-    "fs-extra": "^10.0.0",
-    "husky": "4.3.7",
-    "lint-staged": "^11.1.2",
-    "playwright-chromium": "^1.14.1",
-    "prompts": "^2.4.1",
-    "freshdeps": "^0.0.4",
-    "typescript": "^4.4.2",
-    "vue": "^3.2.10",
-    "zx": "^4.2.0"
   }
 }

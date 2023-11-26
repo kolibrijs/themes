@@ -1,9 +1,9 @@
 import { defineMonacoSetup } from '@kolibrijs/types'
 
-export default defineMonacoSetup(async(monaco) => {
+export default defineMonacoSetup(async (monaco) => {
   await Promise.all([
     // load theme
-    (async() => {
+    (async () => {
       const { default: dark } = await import('theme-lumos/themes/lumos-dark.json')
       const { default: light } = await import('theme-lumos/themes/lumos-light.json')
 
