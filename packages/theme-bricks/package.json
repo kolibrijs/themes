@@ -1,0 +1,38 @@
+{
+  "name": "@kolibrijs/theme-bricks",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=14.0.0",
+    "kolibri": ">=0.0.1"
+  },
+  "description": "Bricks theme for Kolibri",
+  "keywords": [
+    "kolibri-theme",
+    "kolibri"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kolibrijs/themes"
+  },
+  "kolibri": {
+    "colorSchema": "light",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Signika Negative",
+        "serif": "Sigmar One",
+        "mono": "Fira Code"
+      }
+    }
+  },
+  "author": "Dennis Ollhoff <contact@nyxb.email>",
+  "homepage": "https://kolibri.show",
+  "bugs": "https://github.com/kolibrijs/themes/issues",
+  "dependencies": {
+    "@kolibrijs/types": "^0.0.1",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.2",
+    "theme-lumos": "^0.0.3"
+  }
+}

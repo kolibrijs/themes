@@ -1,0 +1,43 @@
+{
+  "name": "@kolibrijs/theme-apple-basic",
+  "version": "0.0.0",
+  "description": "Apple like theme for Kolibri",
+  "engines": {
+    "node": ">=14.0.0",
+    "kolibri": ">=0.0.1"
+  },
+  "keywords": [
+    "kolibri-theme",
+    "kolibri"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kolibrijs/themes"
+  },
+  "homepage": "https://kolibri.show",
+  "bugs": "https://github.com/kolibrijs/themes/issues",
+  "author": "Dennis Ollhoff <contact@nyxb.email>",
+  "kolibri": {
+    "colorSchema": "both",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Helvetica Neue",
+        "local": "Helvetica Neue"
+      }
+    }
+  },
+  "scripts": {
+    "dev": "kolibri example.md --open",
+    "build": "kolibri build example.md",
+    "export": "kolibri export example.md",
+    "screenshot": "kolibri export example.md --format png"
+  },
+  "dependencies": {
+    "@kolibrijs/types": "^0.0.1",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.2",
+    "theme-lumos": "^0.0.3"
+  }
+}

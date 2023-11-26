@@ -1,0 +1,39 @@
+{
+  "name": "@kolibrijs/theme-default",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=14.0.0",
+    "kolibri": ">=0.0.1"
+  },
+  "description": "Default theme for Kolibri",
+  "keywords": [
+    "kolibri-theme",
+    "kolibri"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kolibrijs/themes"
+  },
+  "kolibri": {
+    "colorSchema": "both",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "mono": "Fira Code",
+        "sans": "Avenir Next,Nunito Sans",
+        "local": "Avenir Next"
+      }
+    }
+  },
+  "funding": "https://github.com/sponsors/nyxb",
+  "author": "Dennis Ollhoff <contact@nyxb.email>",
+  "homepage": "https://kolibri.show",
+  "bugs": "https://github.com/kolibrijs/themes/issues",
+  "dependencies": {
+    "@kolibrijs/types": "^0.0.1",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.2",
+    "theme-lumos": "^0.0.3"
+  }
+}
