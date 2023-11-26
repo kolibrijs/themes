@@ -1,0 +1,36 @@
+{
+  "name": "@kolibrijs/theme-shibainu",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "description": "Shibainu theme for Kolibri",
+  "keywords": [
+    "kolibri-theme",
+    "kolibri"
+  ],
+  "license": "MIT",
+  "kolibri": {
+    "colorSchema": "dark",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Titillium Web",
+        "mono": "Fira Code"
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kolibrijs/themes"
+  },
+  "author": "Dennis Ollhoff <contact@nyxb.email>",
+  "homepage": "https://kolibri.show",
+  "bugs": "https://github.com/kolibrijs/themes/issues",
+  "dependencies": {
+    "@kolibrijs/types": "^0.0.1",
+    "codemirror-theme-vars": "^0.1.1",
+    "prism-theme-vars": "^0.2.2",
+    "theme-lumos": "^0.0.3"
+  }
+}
