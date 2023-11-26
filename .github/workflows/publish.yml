@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '14'
           registry-url: https://registry.npmjs.org/
-      - run: npm i -g bun @nyxb/nyxi
+      - run: npm i -g pnpm @nyxb/nyxi
       - run: nyxci
       - run: nyxr ci:publish
         env:

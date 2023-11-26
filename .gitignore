@@ -9,5 +9,6 @@ node_modules
 *-export
 demo/starter/slides.md
 assets/demo
-packages/slidev/README.md
+packages/kolibri/README.md
 composable-vue-cn
+.env
