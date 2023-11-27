@@ -3,7 +3,7 @@ import Background from '../assets/page-2.vue'
 </script>
 
 <template>
-  <div class="kolibri-layout center grid">
+  <div class="kolibry-layout center grid">
     <div class="m-auto w-[60%] text-center">
       <slot />
     </div>

@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="kolibri-layout items">
+  <div class="kolibry-layout items">
     <slot />
     <div class="pt-[5%] grid px-10" :style="`grid-template-columns: repeat(${props.cols}, 1fr);`">
       <slot name="items" />
@@ -17,7 +17,7 @@ const props = defineProps({
 </template>
 
 <style lang="postcss">
-.kolibri-layout.items {
+.kolibry-layout.items {
   background-image: url("../assets/page-6.svg");
   background-repeat: no-repeat;
   background-position: center;

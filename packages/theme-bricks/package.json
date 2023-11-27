@@ -1,6 +1,6 @@
 {
   "name": "@kolibry/theme-bricks",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Bricks theme for Kolibry",
   "author": "Dennis Ollhoff <contact@nyxb.email>",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/kolibry-js/themes"
   },
-  "bugs": "https://github.com/kolibri-js/themes/issues",
+  "bugs": "https://github.com/kolibry-js/themes/issues",
   "keywords": [
     "kolibry-theme",
     "kolibry"
@@ -30,7 +30,7 @@
     }
   },
   "dependencies": {
-    "@kolibrijs/types": "^0.0.2",
+    "@kolibry/types": "^0.0.2",
     "codemirror-theme-vars": "^0.1.1",
     "prism-theme-vars": "^0.2.2",
     "theme-lumos": "^0.0.3"

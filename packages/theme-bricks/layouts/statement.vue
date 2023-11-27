@@ -1,5 +1,5 @@
 <template>
-  <div class="kolibri-layout statement">
+  <div class="kolibry-layout statement">
     <div class="my-auto">
       <slot />
     </div>
@@ -7,7 +7,7 @@
 </template>
 
 <style lang="postcss">
-.kolibri-layout.statement {
+.kolibry-layout.statement {
   background-image: url("../assets/page-9.svg");
   background-repeat: no-repeat;
   background-position: center;

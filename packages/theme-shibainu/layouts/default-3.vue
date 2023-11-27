@@ -9,7 +9,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="kolibri-layout default-3 dark">
+  <div class="kolibry-layout default-3 dark">
     <div class="px-[8%] py-[2%]" :class="props.class">
       <slot />
     </div>
@@ -18,7 +18,7 @@ const props = defineProps({
 </template>
 
 <style scoped>
-.kolibri-layout.default-3 {
+.kolibry-layout.default-3 {
   color: #EBEEF2;
 }
 </style>

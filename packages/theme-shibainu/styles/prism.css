@@ -3,8 +3,8 @@
 @import 'prism-theme-vars/to-codemirror.css';
 
 :root {
-  --prism-font-family: var(--kolibri-code-font-family);
-  --kolibri-code-background: var(--prism-background);
+  --prism-font-family: var(--kolibry-code-font-family);
+  --kolibry-code-background: var(--prism-background);
 }
 
 html:not(.dark) {

@@ -1,5 +1,5 @@
 <template>
-  <div class="kolibri-layout intro">
+  <div class="kolibry-layout intro">
     <div>
       <slot name="left" />
     </div>
@@ -12,7 +12,7 @@
 </template>
 
 <style lang="postcss">
-.kolibri-layout.intro {
+.kolibry-layout.intro {
   background-image: url("../assets/page-8.svg");
   background-repeat: no-repeat;
   background-position: center;

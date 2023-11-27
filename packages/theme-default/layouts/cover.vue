@@ -12,7 +12,7 @@ const style = computed(() => handleBackground(props.background, true))
 </script>
 
 <template>
-  <div class="kolibri-layout cover" :style="style">
+  <div class="kolibry-layout cover" :style="style">
     <div class="my-auto w-full">
       <slot />
     </div>

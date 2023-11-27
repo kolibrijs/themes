@@ -1,10 +1,10 @@
 {
   "name": "@kolibry/theme-apple-basic",
-  "version": "0.0.1",
-  "description": "Apple like theme for Kolibri",
+  "version": "0.0.2",
+  "description": "Apple like theme for Kolibry",
   "author": "Dennis Ollhoff <contact@nyxb.email>",
   "license": "MIT",
-  "homepage": "https://kolibri.show",
+  "homepage": "https://kolibry.dev",
   "repository": {
     "type": "git",
     "url": "https://github.com/kolibry-js/themes"
@@ -35,7 +35,7 @@
     "screenshot": "kolibry export example.md --format png"
   },
   "dependencies": {
-    "@kolibrijs/types": "^0.0.2",
+    "@kolibry/types": "^0.0.2",
     "codemirror-theme-vars": "^0.1.1",
     "prism-theme-vars": "^0.2.2",
     "theme-lumos": "^0.0.3"

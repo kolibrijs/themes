@@ -80,7 +80,7 @@ interface User {
 
 function updateUser(id: number, update: Partial<User>) {
   const user = getUser(id)
-  const newUser = {...user, ...update}  
+  const newUser = { ...user, ...update }
   saveUser(id, newUser)
 }
 ```
@@ -92,4 +92,4 @@ class: "text-center"
 
 # Learn More
 
-[Documentations](https://kolibri.show) / [GitHub Repo](https://github.com/kolibrijs/kolibri)
+[Documentations](https://kolibry.dev) / [GitHub Repo](https://github.com/kolibry-js/kolibry)

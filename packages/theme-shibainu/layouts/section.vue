@@ -3,7 +3,7 @@ import Background from '../assets/page-3.vue'
 </script>
 
 <template>
-  <div class="kolibri-layout section section-1 grid">
+  <div class="kolibry-layout section section-1 grid">
     <div class="my-auto w-full px-10 pt-15">
       <slot />
     </div>
@@ -12,7 +12,7 @@ import Background from '../assets/page-3.vue'
 </template>
 
 <style scoped>
-.kolibri-layout.section-1 {
+.kolibry-layout.section-1 {
   color: #EBEEF2;
 }
 </style>

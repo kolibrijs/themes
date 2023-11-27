@@ -3,7 +3,7 @@ import Background from '../assets/page-15.vue'
 </script>
 
 <template>
-  <div class="kolibri-layout quote dark">
+  <div class="kolibry-layout quote dark">
     <div class="my-auto w-full text-center">
       <slot />
     </div>
@@ -12,7 +12,7 @@ import Background from '../assets/page-15.vue'
 </template>
 
 <style lang="postcss">
-.kolibri-layout.quote {
+.kolibry-layout.quote {
   color: #EBEEF2;
 
   h1 {

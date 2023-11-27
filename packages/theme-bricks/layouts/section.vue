@@ -1,5 +1,5 @@
 <template>
-  <div class="kolibri-layout section-1 grid grid-cols-2">
+  <div class="kolibry-layout section-1 grid grid-cols-2">
     <div class="pt-[45%] px-2">
       <slot />
     </div>
@@ -10,7 +10,7 @@
 </template>
 
 <style lang="postcss">
-.kolibri-layout.section-1 {
+.kolibry-layout.section-1 {
   background-image: url("../assets/page-3.svg");
   background-repeat: no-repeat;
   background-position: center;

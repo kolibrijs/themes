@@ -105,4 +105,4 @@ class: "text-center"
 
 # Learn More
 
-[Documentations](https://kolibri.show) / [GitHub Repo](https://github.com/kolibrijs/kolibri)
+[Documentations](https://kolibry.dev) / [GitHub Repo](https://github.com/kolibry-js/kolibry)

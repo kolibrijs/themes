@@ -1,9 +1,9 @@
 :root {
-  --kolibri-theme-primary: #402312;
+  --kolibry-theme-primary: #402312;
 }
 
-.kolibri-layout {
-  @apply relative h-full text-$kolibri-theme-primary;
+.kolibry-layout {
+  @apply relative h-full text-$kolibry-theme-primary;
 
   h1 + p {
     @apply -mt-2 opacity-50 mb-4;
@@ -22,9 +22,9 @@
   }
 }
 
-.kolibri-layout.cover,
-.kolibri-layout.intro {
-  @apply h-full grid text-$kolibri-theme-primary;
+.kolibry-layout.cover,
+.kolibry-layout.intro {
+  @apply h-full grid text-$kolibry-theme-primary;
 
   h1 {
     color: inherit;
@@ -42,7 +42,7 @@
   @apply absolute w-full h-full left-0 top-0;
 }
 
-.kolibri-layout.fact {
+.kolibry-layout.fact {
   @apply text-center grid h-full;
   h1 {
     @apply text-8xl font-700;
@@ -51,21 +51,21 @@
     @apply font-700 text-2xl;
   }
 }
-.kolibri-layout.statement {
+.kolibry-layout.statement {
   @apply text-center grid h-full;
 
   h1 {
     @apply text-6xl font-700;
   }
 }
-.kolibri-layout.quote {
+.kolibry-layout.quote {
   @apply grid h-full;
 
   h1 + p {
     @apply mt-2;
   }
 }
-.kolibri-layout.section {
+.kolibry-layout.section {
   h1 {
     @apply text-6xl font-500 leading-20;
   }

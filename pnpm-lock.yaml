@@ -8,16 +8,16 @@ importers:
 
   .:
     devDependencies:
-      '@kolibrijs/cli':
+      '@kolibry/cli':
         specifier: ^0.0.2
         version: 0.0.2(@types/markdown-it@13.0.7)(@types/node@16.7.13)(playwright-chromium@1.14.1)(postcss@8.4.31)(typescript@4.4.2)
-      '@kolibrijs/client':
+      '@kolibry/client':
         specifier: ^0.0.2
         version: 0.0.2(postcss@8.4.31)(typescript@4.4.2)(vite@4.5.0)
-      '@kolibrijs/parser':
+      '@kolibry/parser':
         specifier: ^0.0.2
         version: 0.0.2
-      '@kolibrijs/types':
+      '@kolibry/types':
         specifier: ^0.0.2
         version: 0.0.2
       '@nyxb/eslint-config':
@@ -83,7 +83,7 @@ importers:
 
   packages/theme-apple-basic:
     dependencies:
-      '@kolibrijs/types':
+      '@kolibry/types':
         specifier: ^0.0.2
         version: 0.0.2
       codemirror-theme-vars:
@@ -98,7 +98,7 @@ importers:
 
   packages/theme-bricks:
     dependencies:
-      '@kolibrijs/types':
+      '@kolibry/types':
         specifier: ^0.0.2
         version: 0.0.2
       codemirror-theme-vars:
@@ -113,7 +113,7 @@ importers:
 
   packages/theme-default:
     dependencies:
-      '@kolibrijs/types':
+      '@kolibry/types':
         specifier: ^0.0.2
         version: 0.0.2
       codemirror-theme-vars:
@@ -128,7 +128,7 @@ importers:
 
   packages/theme-seriph:
     dependencies:
-      '@kolibrijs/types':
+      '@kolibry/types':
         specifier: ^0.0.2
         version: 0.0.2
       codemirror-theme-vars:
@@ -143,7 +143,7 @@ importers:
 
   packages/theme-shibainu:
     dependencies:
-      '@kolibrijs/types':
+      '@kolibry/types':
         specifier: ^0.0.2
         version: 0.0.2
       codemirror-theme-vars:
@@ -922,8 +922,8 @@ packages:
       type-detect: 4.0.8
     dev: true
 
-  /@kolibrijs/cli@0.0.2(@types/markdown-it@13.0.7)(@types/node@16.7.13)(playwright-chromium@1.14.1)(postcss@8.4.31)(typescript@4.4.2):
-    resolution: {integrity: sha512-ctiP5rgxwpwV2K39iKF/CmDCJ98ehcjOCo67erofa/jpTK7hMD53cb8EbIkVSYsYry8yljiMLKtjRfZS+c0ksg==}
+  /@kolibry/cli@0.0.2(@types/markdown-it@13.0.7)(@types/node@16.7.13)(playwright-chromium@1.14.1)(postcss@8.4.31)(typescript@4.4.2):
+    resolution: {integrity: sha512-Vi86vlUepbBqOD5Yx2V5yyvhasWmSzfAEVjJNmgTxyfNjQKP2iq0zh6v598ObedE3EMl3JBN3DeW2vx9PdvVPQ==}
     engines: {node: '>=18.0.0'}
     hasBin: true
     peerDependencies:
@@ -935,9 +935,9 @@ packages:
       '@hedgedoc/markdown-it-plugins': 2.1.4(markdown-it@13.0.2)
       '@iconify-json/carbon': 1.1.22
       '@iconify-json/ph': 1.1.7
-      '@kolibrijs/client': 0.0.2(postcss@8.4.31)(typescript@4.4.2)(vite@4.5.0)
-      '@kolibrijs/parser': 0.0.2
-      '@kolibrijs/types': 0.0.2
+      '@kolibry/client': 0.0.2(postcss@8.4.31)(typescript@4.4.2)(vite@4.5.0)
+      '@kolibry/parser': 0.0.2
+      '@kolibry/types': 0.0.2
       '@lillallol/outline-pdf': 4.0.0
       '@mrdrogdrog/optional': 1.2.1
       '@nyxb/utils': 0.0.3
@@ -1019,12 +1019,12 @@ packages:
       - vue-template-es2015-compiler
     dev: true
 
-  /@kolibrijs/client@0.0.2(postcss@8.4.31)(typescript@4.4.2)(vite@4.5.0):
-    resolution: {integrity: sha512-UPt5UYiSl+Onefwq3lXs86z5iSznEoxojfq2tHYWOl+m8afvl9fu2sHi9Wiy+mcPVYOSlzEmjPY7CuxTMO4oXQ==}
+  /@kolibry/client@0.0.2(postcss@8.4.31)(typescript@4.4.2)(vite@4.5.0):
+    resolution: {integrity: sha512-uTtTNcuCdOf6XHvMXiNPRwhTQ8hpAUtbKSakN7mg9I2J4apEpOB2/Nzh+iwhvpx1pzfCE6G68Q0v3ivVM4Vslw==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@kolibrijs/parser': 0.0.2
-      '@kolibrijs/types': 0.0.2
+      '@kolibry/parser': 0.0.2
+      '@kolibry/types': 0.0.2
       '@nyxb/utils': 0.0.3
       '@unhead/vue': 1.8.8(vue@3.3.9)
       '@unocss/reset': 0.57.7
@@ -1061,16 +1061,16 @@ packages:
       - vite
     dev: true
 
-  /@kolibrijs/parser@0.0.2:
-    resolution: {integrity: sha512-kfJ/xhEP7qoEOP947YBlfYJbLUv4k0EG9McL2qT6f7CQnRDy89igjA2hkcInCgGlGgpnWP9D6VWUOIqKXRZjbQ==}
+  /@kolibry/parser@0.0.2:
+    resolution: {integrity: sha512-zhMZ2L3cgQjD8LCYDw35j2Ddus809Mzy2vgcKbFEKznygZvW6LeHnT3Or4ZbWHABrXGxCS8/O9uqwEQ7VUkAIQ==}
     engines: {node: '>=18.0.0'}
     dependencies:
-      '@kolibrijs/types': 0.0.2
+      '@kolibry/types': 0.0.2
       js-yaml: 4.1.0
     dev: true
 
-  /@kolibrijs/types@0.0.2:
-    resolution: {integrity: sha512-17Md6J6HXLhSpDmMKq6+TpIdiXVEcsze+yVlcVXkAe8f+xlOqgDQfnYFat0YZMYYbhG5xI+JiQ4mKv646aRmXg==}
+  /@kolibry/types@0.0.2:
+    resolution: {integrity: sha512-35R+GGf0ea6Yz7AirvPgAXYT/gG0W75sfUtNiT0ryg14G1obL8GrvNnWCvRUGFfqscJGQRlwg1nUHUl+QqK1Ow==}
     engines: {node: '>=18.0.0'}
 
   /@leichtgewicht/ip-codec@2.0.4:

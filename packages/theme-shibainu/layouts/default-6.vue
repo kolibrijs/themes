@@ -3,7 +3,7 @@ import Background from '../assets/page-12.vue'
 </script>
 
 <template>
-  <div class="kolibri-layout default-6 dark">
+  <div class="kolibry-layout default-6 dark">
     <div class="px-[15%] py-[5%]">
       <slot />
     </div>
@@ -12,7 +12,7 @@ import Background from '../assets/page-12.vue'
 </template>
 
 <style scoped>
-.kolibri-layout.default-6 {
+.kolibry-layout.default-6 {
   color: #EBEEF2;
 }
 </style>

@@ -1,11 +1,11 @@
 <template>
-  <div class="kolibri-layout default">
+  <div class="kolibry-layout default">
     <slot />
   </div>
 </template>
 
 <style lang="postcss">
-.kolibri-layout.default {
+.kolibry-layout.default {
   background-image: url("../assets/page-5.svg");
   background-repeat: no-repeat;
   background-position: center;

@@ -11,7 +11,7 @@ const style = computed(() => handleBackground(props.image))
 </script>
 
 <template>
-  <div class="kolibri-layout w-full h-full intro-image" :style="style">
+  <div class="kolibry-layout w-full h-full intro-image" :style="style">
     <slot />
   </div>
 </template>

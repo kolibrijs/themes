@@ -1,21 +1,21 @@
-# @kolibri/theme-apple-basic
+# @kolibry/theme-apple-basic
 
-[![NPM version](https://img.shields.io/npm/v/@kolibrijs/theme-apple-basic?color=9945FF&label=)](https://www.npmjs.com/package/@kolibri/theme-apple-basic)
+[![NPM version](https://img.shields.io/npm/v/@kolibry/theme-apple-basic?color=9945FF&label=)](https://www.npmjs.com/package/@kolibry/theme-apple-basic)
 
-An Apple like theme for [Kolibri](https://github.com/kolibrijs/kolibri).
+An Apple like theme for [Kolibry](https://github.com/kolibry-js/kolibry).
 
 This theme is inspired by the Basic Black/White theme on the Apple Keynote application.
 
 
 ## Install
 
-Add the following frontmatter to your `slides.md`. Start Kolibri then it will prompt you to install the theme automatically.
+Add the following frontmatter to your `slides.md`. Start Kolibry then it will prompt you to install the theme automatically.
 
 <pre><code>---
 theme: <b>apple-basic</b>
 ---</code></pre>
 
-Learn more about [how to use a theme](https://kolibri.show/themes/use).
+Learn more about [how to use a theme](https://kolibry.dev/themes/use).
 
 ## Layouts
 

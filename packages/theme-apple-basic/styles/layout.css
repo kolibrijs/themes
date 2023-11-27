@@ -1,4 +1,4 @@
-.kolibri-layout {
+.kolibry-layout {
   @apply px-14 py-10 text-[1.1rem];
 
   h1, h2, h3, h4, p, div {
@@ -50,7 +50,7 @@
   }
 
   blockquote {
-    @apply text-sm px-2 py-1 bg-$prism-background border-$kolibri-theme-primary border-l rounded;
+    @apply text-sm px-2 py-1 bg-$prism-background border-$kolibry-theme-primary border-l rounded;
   }
 
   blockquote > * {
@@ -70,7 +70,7 @@
   }
 
   a {
-    @apply border-current border-b border-dashed hover:(text-$kolibri-theme-primary border-solid);
+    @apply border-current border-b border-dashed hover:(text-$kolibry-theme-primary border-solid);
   }
 
   td, th {
@@ -87,8 +87,8 @@
   }
 }
 
-.kolibri-layout.intro-image,
-.kolibri-layout.intro {
+.kolibry-layout.intro-image,
+.kolibry-layout.intro {
   @apply h-full grid;
 
   h1 {
@@ -99,7 +99,7 @@
     @apply font-700 -mt-4 text-2xl;
   }
 }
-.kolibri-layout.fact {
+.kolibry-layout.fact {
   @apply text-center;
   h1 {
     @apply text-8xl font-700;
@@ -108,19 +108,19 @@
     @apply font-700 text-2xl;
   }
 }
-.kolibri-layout.statement {
+.kolibry-layout.statement {
   @apply text-center;
 
   h1 {
     @apply text-6xl font-700;
   }
 }
-.kolibri-layout.quote {
+.kolibry-layout.quote {
   h1 + p {
     @apply mt-6 ml-6;
   }
 }
-.kolibri-layout.section {
+.kolibry-layout.section {
   h1 {
     @apply text-6xl font-500 leading-20;
   }

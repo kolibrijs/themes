@@ -1,4 +1,4 @@
-import { defineMonacoSetup } from '@kolibrijs/types'
+import { defineMonacoSetup } from '@kolibry/types'
 
 export default defineMonacoSetup(async (monaco) => {
   await Promise.all([

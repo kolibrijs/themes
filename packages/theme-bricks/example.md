@@ -10,7 +10,7 @@ Presentation subtitle
 layout: intro
 ---
 
-# Kolibri Theme Bricks
+# Kolibry Theme Bricks
 
 ---
 

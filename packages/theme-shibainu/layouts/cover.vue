@@ -3,7 +3,7 @@ import Background from '../assets/page-1.vue'
 </script>
 
 <template>
-  <div class="kolibri-layout cover">
+  <div class="kolibry-layout cover">
     <div class="my-auto w-full">
       <slot />
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="kolibri-layout h-full grid bullets">
+  <div class="kolibry-layout h-full grid bullets">
     <div class="pt-18">
       <slot />
     </div>

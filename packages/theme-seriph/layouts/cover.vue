@@ -14,7 +14,7 @@ const style = computed(() => handleBackground(props.background, true))
 
 <template>
   <div
-    class="kolibri-layout cover text-center"
+    class="kolibry-layout cover text-center"
     :style="style"
   >
     <div class="my-auto w-full">

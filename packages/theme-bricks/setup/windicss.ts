@@ -1,5 +1,5 @@
 import { resolve } from 'node:path'
-import { defineWindiSetup } from '@kolibrijs/types'
+import { defineWindiSetup } from '@kolibry/types'
 
 export default defineWindiSetup(() => ({
   extract: {

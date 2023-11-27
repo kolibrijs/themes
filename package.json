@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint '**/*.{js,ts,vue,json}'",
     "lint:fix": "nyxr lint --fix",
-    "upgrade": "freshdeps -rwi --include /@kolibrijs/",
+    "upgrade": "freshdeps -rwi --include /@kolibry/",
     "dev": "zx scripts/dev.mjs",
     "build": "zx scripts/build.mjs",
     "release": "zx scripts/prompt.mjs",
@@ -14,10 +14,10 @@
     "ci:publish": "zx scripts/publish.mjs"
   },
   "devDependencies": {
-    "@kolibrijs/cli": "^0.0.2",
-    "@kolibrijs/client": "^0.0.2",
-    "@kolibrijs/parser": "^0.0.2",
-    "@kolibrijs/types": "^0.0.2",
+    "@kolibry/cli": "^0.0.2",
+    "@kolibry/client": "^0.0.2",
+    "@kolibry/parser": "^0.0.2",
+    "@kolibry/types": "^0.0.2",
     "@nyxb/eslint-config": "^1.0.6",
     "@nyxb/nyxi": "^0.0.31",
     "@nyxb/utils": "^0.0.3",
