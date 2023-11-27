@@ -1,25 +1,25 @@
 {
-  "name": "@kolibrijs/theme-seriph",
+  "name": "@kolibry/theme-seriph",
   "version": "0.0.0",
-  "description": "Seriph theme for Kolibri",
+  "description": "Seriph theme for Kolibry",
   "author": "Dennis Ollhoff <contact@nyxb.email>",
   "license": "MIT",
   "funding": "https://github.com/sponsors/nyxb",
-  "homepage": "https://kolibri.show",
+  "homepage": "https://kolibry.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kolibrijs/themes"
+    "url": "https://github.com/kolibry-js/themes"
   },
-  "bugs": "https://github.com/kolibrijs/themes/issues",
+  "bugs": "https://github.com/kolibry-js/themes/issues",
   "keywords": [
-    "kolibri-theme",
-    "kolibri"
+    "kolibry-theme",
+    "kokolibrylibri"
   ],
   "engines": {
     "node": ">=14.0.0",
-    "kolibri": ">=0.0.1"
+    "kolibry": ">=0.0.1"
   },
-  "kolibri": {
+  "kolibry": {
     "colorSchema": "both",
     "highlighter": "all",
     "defaults": {

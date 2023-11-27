@@ -1,5 +1,5 @@
 {
-  "name": "@kolibrijs/theme-apple-basic",
+  "name": "@kolibry/theme-apple-basic",
   "version": "0.0.0",
   "description": "Apple like theme for Kolibri",
   "author": "Dennis Ollhoff <contact@nyxb.email>",
@@ -7,18 +7,18 @@
   "homepage": "https://kolibri.show",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kolibrijs/themes"
+    "url": "https://github.com/kolibry-js/themes"
   },
-  "bugs": "https://github.com/kolibrijs/themes/issues",
+  "bugs": "https://github.com/kolibry-js/themes/issues",
   "keywords": [
-    "kolibri-theme",
-    "kolibri"
+    "kolibry-theme",
+    "kolibry"
   ],
   "engines": {
     "node": ">=14.0.0",
-    "kolibri": ">=0.0.1"
+    "kolibry": ">=0.0.1"
   },
-  "kolibri": {
+  "kolibry": {
     "colorSchema": "both",
     "highlighter": "all",
     "defaults": {
@@ -29,10 +29,10 @@
     }
   },
   "scripts": {
-    "dev": "kolibri example.md --open",
-    "build": "kolibri build example.md",
-    "export": "kolibri export example.md",
-    "screenshot": "kolibri export example.md --format png"
+    "dev": "kolibry example.md --open",
+    "build": "kolibry build example.md",
+    "export": "kolibry export example.md",
+    "screenshot": "kolibry export example.md --format png"
   },
   "dependencies": {
     "@kolibrijs/types": "^0.0.2",

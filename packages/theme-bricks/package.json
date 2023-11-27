@@ -1,24 +1,24 @@
 {
-  "name": "@kolibrijs/theme-bricks",
+  "name": "@kolibry/theme-bricks",
   "version": "0.0.0",
-  "description": "Bricks theme for Kolibri",
+  "description": "Bricks theme for Kolibry",
   "author": "Dennis Ollhoff <contact@nyxb.email>",
   "license": "MIT",
-  "homepage": "https://kolibri.show",
+  "homepage": "https://kolibry.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kolibrijs/themes"
+    "url": "https://github.com/kolibry-js/themes"
   },
-  "bugs": "https://github.com/kolibrijs/themes/issues",
+  "bugs": "https://github.com/kolibri-js/themes/issues",
   "keywords": [
-    "kolibri-theme",
-    "kolibri"
+    "kolibry-theme",
+    "kolibry"
   ],
   "engines": {
     "node": ">=14.0.0",
-    "kolibri": ">=0.0.1"
+    "kolibry": ">=0.0.1"
   },
-  "kolibri": {
+  "kolibry": {
     "colorSchema": "light",
     "highlighter": "all",
     "defaults": {

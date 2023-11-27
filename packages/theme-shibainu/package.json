@@ -1,23 +1,23 @@
 {
-  "name": "@kolibrijs/theme-shibainu",
+  "name": "@kolibry/theme-shibainu",
   "version": "0.0.0",
-  "description": "Shibainu theme for Kolibri",
+  "description": "Shibainu theme for Kolibry",
   "author": "Dennis Ollhoff <contact@nyxb.email>",
   "license": "MIT",
-  "homepage": "https://kolibri.show",
+  "homepage": "https://kolibry.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kolibrijs/themes"
+    "url": "https://github.com/kolibry-js/themes"
   },
-  "bugs": "https://github.com/kolibrijs/themes/issues",
+  "bugs": "https://github.com/kolibry-js/themes/issues",
   "keywords": [
-    "kolibri-theme",
-    "kolibri"
+    "kolibry-theme",
+    "kolibry"
   ],
   "engines": {
     "node": ">=14.0.0"
   },
-  "kolibri": {
+  "kolibry": {
     "colorSchema": "dark",
     "highlighter": "all",
     "defaults": {
