@@ -20,7 +20,7 @@ Learn more about [how to use a theme](https://kolibry.dev/themes/use).
 ---
 theme: serif
 themeConfig:
-  primary: '#5d8392'
+  primary: '#14F195'
 ---
 
 # # License
