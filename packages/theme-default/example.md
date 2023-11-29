@@ -1,7 +1,7 @@
 ---
 theme: ./
 layout: cover
-background: https://images.unsplash.com/photo-1502189562704-87e622a34c85?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80
+background: './assets/cover.jpg'
 ---
 
 # Presentation title
@@ -22,7 +22,7 @@ Slide Subtitle
 
 ---
 layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: './assets/right.jpg'
 ---
 
 # Slide Title
@@ -63,7 +63,7 @@ Attribution
 
 ---
 layout: image-left
-image: https://source.unsplash.com/collection/94734566/1920x1080
+image: './assets/left.jpg'
 ---
 
 # Code
