@@ -1,7 +1,7 @@
 ---
 theme: ./
 layout: cover
-background: https://images.unsplash.com/photo-1530819568329-97653eafbbfa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2092&q=80
+background: https://source.unsplash.com/collection/8723350/1920x1080
 themeConfig:
   primary: '#4d7534'
 ---

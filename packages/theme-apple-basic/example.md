@@ -14,7 +14,7 @@ Presentation subtitle
 </div>
 
 ---
-layout: intro-image
+layout: intro-image 
 image: 'https://source.unsplash.com/collection/4966472/1920x1080'
 ---
 
